@@ -80,7 +80,7 @@ The promise should be resolved with data in the following model:
 ================================================================================
 ================================================================================
 
-considerações sobre o teste:
+Considerações:
 
 1 - Nome do arquivo de entrada, segmentFileName é um json de M elementos.
 
