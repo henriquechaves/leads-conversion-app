@@ -1,0 +1,276 @@
+{
+    "_id": "5824d85f4e0b31a4b2a3b46a",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "crmRecordId": "00Q3600000RRWqiEAH",
+    "link": "https://na30.salesforce.com/00Q3600000RRWqiEAH",
+    "callCount": 0,
+    "createdBy": "5824d5df4e0b31a4b2a3b3df",
+    "customFields": {
+        "LastName": {
+            "name": "LastName",
+            "label": "Last Name",
+            "type": "string",
+            "custom": false,
+            "value": "Alexande"
+        },
+        "FirstName": {
+            "name": "FirstName",
+            "label": "First Name",
+            "type": "string",
+            "custom": false,
+            "value": "Pierre Alexande"
+        },
+        "IsDeleted": {
+            "name": "IsDeleted",
+            "label": "Deleted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "Title": {
+            "name": "Title",
+            "label": "Title",
+            "type": "string",
+            "custom": false,
+            "value": "131111"
+        },
+        "Company": {
+            "name": "Company",
+            "label": "Company",
+            "type": "string",
+            "custom": false,
+            "value": "No company specified"
+        },
+        "PhotoUrl": {
+            "name": "PhotoUrl",
+            "label": "Photo URL",
+            "type": "url",
+            "custom": false,
+            "value": "/services/images/photo/00Q3600000RRWqiEAH"
+        },
+        "OwnerId": {
+            "name": "OwnerId",
+            "label": "Owner ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "IsConverted": {
+            "name": "IsConverted",
+            "label": "Converted",
+            "type": "boolean",
+            "custom": false,
+            "value": true
+        },
+        "ConvertedDate": {
+            "name": "ConvertedDate",
+            "label": "Converted Date",
+            "type": "date",
+            "custom": false,
+            "value": "2016-12-09"
+        },
+        "ConvertedAccountId": {
+            "name": "ConvertedAccountId",
+            "label": "Converted Account ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/0013600000runZJAAY"
+        },
+        "ConvertedContactId": {
+            "name": "ConvertedContactId",
+            "label": "Converted Contact ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/0033600000fsXxyAAE"
+        },
+        "ConvertedOpportunityId": {
+            "name": "ConvertedOpportunityId",
+            "label": "Converted Opportunity ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/0063600000FnPtDAAV"
+        },
+        "IsUnreadByOwner": {
+            "name": "IsUnreadByOwner",
+            "label": "Unread By Owner",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "CreatedDate": {
+            "name": "CreatedDate",
+            "label": "Created Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-10T20:28:14.000+0000"
+        },
+        "CreatedById": {
+            "name": "CreatedById",
+            "label": "Created By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "LastModifiedDate": {
+            "name": "LastModifiedDate",
+            "label": "Last Modified Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-09T21:16:07.000+0000"
+        },
+        "LastModifiedById": {
+            "name": "LastModifiedById",
+            "label": "Last Modified By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "SystemModstamp": {
+            "name": "SystemModstamp",
+            "label": "System Modstamp",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-10T14:28:57.000+0000"
+        },
+        "LastViewedDate": {
+            "name": "LastViewedDate",
+            "label": "Last Viewed Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-01-16T01:12:23.000+0000"
+        },
+        "LastReferencedDate": {
+            "name": "LastReferencedDate",
+            "label": "Last Referenced Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-01-16T01:12:23.000+0000"
+        },
+        "CleanStatus": {
+            "name": "CleanStatus",
+            "label": "Clean Status",
+            "type": "picklist",
+            "custom": false,
+            "value": "Pending"
+        }
+    },
+    "isHot": false,
+    "module": "Lead",
+    "lastActivity": null,
+    "firstActivity": null,
+    "status": "Closed - Converted",
+    "source": null,
+    "email": "mateus.freira@gmail.com",
+    "phoneNumber": "(31) 3241-7701",
+    "name": "Pierre Alexande Alexande",
+    "updatedAt": "2017-03-31T02:23:51.160Z",
+    "__v": 0,
+    "createdAt": "2016-11-10T20:28:15.854Z",
+    "rating": 0,
+    "_segments": [
+        {
+            "segment": {
+                "_id": "5824d5da1ff0d5fc66c7997d",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582a16d9cfbe4205313a7a8f",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58339f369eeee95d28d4867c",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "5835d3cf6f64627e4629bcb1",
+                "name": "Prospects #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ],
+    "_sequences": [
+        {
+            "startDate": "2016-11-15T14:02:16.160Z",
+            "currentStepStartDate": "2016-11-15T14:32:01.777Z",
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStep": 3,
+            "_sequence": {
+                "_id": "5827e2afb02626070027e934",
+                "name": "Sequence #1",
+                "active": true
+            },
+            "endDate": "2016-11-15T20:30:02.697Z",
+            "endReason": "finished",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-15T14:02:16.160Z"
+        },
+        {
+            "startDate": "2016-11-15T14:34:00.887Z",
+            "currentStepStartDate": "2016-11-15T14:34:00.887Z",
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStep": 1,
+            "_sequence": {
+                "_id": "5828a8cd6d17ee0700a566e3",
+                "name": "Sequences #2",
+                "active": true
+            },
+            "endDate": "2016-11-15T14:58:09.078Z",
+            "endReason": "finished",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-15T14:34:00.887Z"
+        },
+        {
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStep": 1,
+            "_sequence": {
+                "_id": "582b22e2f2fcad2ecda931a4",
+                "name": "Sequence 3",
+                "active": true
+            },
+            "currentStepStartDate": "2016-11-26T18:14:48.878Z",
+            "startDate": "2016-11-26T18:14:48.878Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-15T15:00:26.036Z"
+        }
+    ],
+    "hotReason": "NEXT_CTD",
+    "_owner": "571ff6b3c373568e01d2837d"
+}

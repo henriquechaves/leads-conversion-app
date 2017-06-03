@@ -1,0 +1,357 @@
+{
+    "_id": "5824d5e04e0b31a4b2a3b3e8",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "crmRecordId": "00Q36000008POaMEAW",
+    "link": "https://na30.salesforce.com/00Q36000008POaMEAW",
+    "callCount": 82,
+    "createdBy": null,
+    "customFields": {
+        "Title": {
+            "value": "Software Engineer",
+            "custom": false,
+            "type": "string",
+            "label": "Title",
+            "name": "Title"
+        },
+        "SystemModstamp": {
+            "value": "2017-04-04T01:49:54.000Z",
+            "custom": false,
+            "type": "datetime",
+            "label": "System Modstamp",
+            "name": "SystemModstamp"
+        },
+        "Salutation": {
+            "value": "Mr.",
+            "custom": false,
+            "type": "picklist",
+            "label": "Salutation",
+            "name": "Salutation"
+        },
+        "PhotoUrl": {
+            "value": "/services/images/photo/00Q36000008POaMEAW",
+            "custom": false,
+            "type": "url",
+            "label": "Photo URL",
+            "name": "PhotoUrl"
+        },
+        "OwnerId": {
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0",
+            "custom": false,
+            "type": "reference",
+            "label": "Owner ID",
+            "name": "OwnerId"
+        },
+        "NumberOfEmployees": {
+            "value": 20,
+            "custom": false,
+            "type": "int",
+            "label": "Employees",
+            "name": "NumberOfEmployees"
+        },
+        "Multipicklist__c": {
+            "value": "Option 1;Option 3",
+            "custom": true,
+            "type": "multipicklist",
+            "label": "Multipicklist",
+            "name": "Multipicklist__c"
+        },
+        "MobilePhone": {
+            "value": "011553134351764",
+            "custom": false,
+            "type": "phone",
+            "label": "Mobile Phone",
+            "name": "MobilePhone"
+        },
+        "LastViewedDate": {
+            "value": "2017-04-04T01:49:53.000Z",
+            "custom": false,
+            "type": "datetime",
+            "label": "Last Viewed Date",
+            "name": "LastViewedDate"
+        },
+        "LastReferencedDate": {
+            "value": "2017-04-04T01:49:53.000Z",
+            "custom": false,
+            "type": "datetime",
+            "label": "Last Referenced Date",
+            "name": "LastReferencedDate"
+        },
+        "LastName": {
+            "value": "Almeida 12",
+            "custom": false,
+            "type": "string",
+            "label": "Last Name",
+            "name": "LastName"
+        },
+        "LastModifiedDate": {
+            "value": "2017-04-04T01:49:54.000Z",
+            "custom": false,
+            "type": "datetime",
+            "label": "Last Modified Date",
+            "name": "LastModifiedDate"
+        },
+        "LastModifiedById": {
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0",
+            "custom": false,
+            "type": "reference",
+            "label": "Last Modified By ID",
+            "name": "LastModifiedById"
+        },
+        "LAD__c": {
+            "value": "2017-04-03",
+            "custom": true,
+            "type": "date",
+            "label": "LAD",
+            "name": "LAD__c"
+        },
+        "IsUnreadByOwner": {
+            "value": "false",
+            "custom": false,
+            "type": "boolean",
+            "label": "Unread By Owner",
+            "name": "IsUnreadByOwner"
+        },
+        "IsDeleted": {
+            "value": "false",
+            "custom": false,
+            "type": "boolean",
+            "label": "Deleted",
+            "name": "IsDeleted"
+        },
+        "IsConverted": {
+            "value": "false",
+            "custom": false,
+            "type": "boolean",
+            "label": "Converted",
+            "name": "IsConverted"
+        },
+        "Industry": {
+            "value": "Engineering",
+            "custom": false,
+            "type": "picklist",
+            "label": "Industry",
+            "name": "Industry"
+        },
+        "FirstName": {
+            "value": "Rhaylander",
+            "custom": false,
+            "type": "string",
+            "label": "First Name",
+            "name": "FirstName"
+        },
+        "Description": {
+            "value": "Phone:553173395549",
+            "custom": false,
+            "type": "textarea",
+            "label": "Description",
+            "name": "Description"
+        },
+        "CreatedDate": {
+            "value": "2016-05-01T16:22:46.000Z",
+            "custom": false,
+            "type": "datetime",
+            "label": "Created Date",
+            "name": "CreatedDate"
+        },
+        "CreatedById": {
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0",
+            "custom": false,
+            "type": "reference",
+            "label": "Created By ID",
+            "name": "CreatedById"
+        },
+        "Company": {
+            "value": "Tenfold",
+            "custom": false,
+            "type": "string",
+            "label": "Company",
+            "name": "Company"
+        },
+        "CleanStatus": {
+            "value": "Pending",
+            "custom": false,
+            "type": "picklist",
+            "label": "Clean Status",
+            "name": "CleanStatus"
+        },
+        "CPhone__c": {
+            "value": "001455313435176",
+            "custom": true,
+            "type": "phone",
+            "label": "CPhone",
+            "name": "CPhone__c"
+        },
+        "CID__c": {
+            "value": "15124364091",
+            "custom": true,
+            "type": "string",
+            "label": "CID",
+            "name": "CID__c"
+        }
+    },
+    "isHot": false,
+    "module": "Lead",
+    "lastActivity": "2017-04-12T03:29:37.521Z",
+    "firstActivity": null,
+    "status": "Working - Contacted",
+    "source": "Phone Inquiry",
+    "email": "rhaylander95@gmail.com",
+    "phoneNumber": "+15124364091",
+    "name": "Rhaylander Almeida 12",
+    "updatedAt": "2017-04-12T03:29:37.521Z",
+    "__v": 0,
+    "createdAt": "2016-11-10T20:17:35.444Z",
+    "rating": 0,
+    "_segments": [
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ],
+    "_sequences": [
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-13T18:05:00.939Z",
+            "_sequence": {
+                "_id": "5827e2afb02626070027e934",
+                "name": "Sequence #1",
+                "active": true
+            },
+            "currentStep": 4,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-11-13T18:03:01.778Z",
+            "startDate": "2016-11-13T03:51:02.302Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-13T03:51:02.302Z"
+        },
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-13T18:09:22.907Z",
+            "_sequence": {
+                "_id": "5828a8cd6d17ee0700a566e3",
+                "name": "Sequences #2",
+                "active": true
+            },
+            "currentStep": 1,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-11-13T18:05:00.962Z",
+            "startDate": "2016-11-13T18:05:00.962Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-13T18:05:00.962Z"
+        },
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-15T20:33:00.838Z",
+            "_sequence": {
+                "_id": "582b6e27620d90070034d5c1",
+                "name": "Sequence #4",
+                "active": true
+            },
+            "currentStep": 4,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-11-15T20:31:25.688Z",
+            "startDate": "2016-11-15T20:25:58.025Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-15T20:25:58.025Z"
+        },
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-15T20:35:11.031Z",
+            "_sequence": {
+                "_id": "582b6efb797f5a0700912619",
+                "name": "Sequence #5",
+                "active": false
+            },
+            "currentStep": 1,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-11-15T20:33:00.854Z",
+            "startDate": "2016-11-15T20:33:00.854Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-15T20:33:00.854Z"
+        },
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-26T21:50:42.998Z",
+            "_sequence": {
+                "_id": "582b22e2f2fcad2ecda931a4",
+                "name": "Sequence 3",
+                "active": true
+            },
+            "_segment": null,
+            "currentStep": 2,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "sendAsUser": "5837720d2fe3430700d268f0",
+            "currentStepStartDate": "2016-11-26T21:45:21.146Z",
+            "startDate": "2016-11-26T21:40:03.436Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-26T21:40:03.436Z"
+        },
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-27T00:00:01.639Z",
+            "sendAsUser": "5837720d2fe3430700d268f0",
+            "_sequence": {
+                "_id": "583a05108f47a3e082c488db",
+                "name": "Sequence #6",
+                "active": true
+            },
+            "_segment": null,
+            "currentStep": 1,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-11-26T21:58:33.657Z",
+            "startDate": "2016-11-26T21:58:33.657Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-26T21:58:33.657Z"
+        },
+        {
+            "_sequence": {
+                "_id": "583b8c4fe4c172ea0a2812c0",
+                "name": "Sequence #7",
+                "active": false
+            },
+            "_segment": null,
+            "currentStep": 1,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "sendAsUser": "571ff6b3c373568e01d2837d",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-28T01:48:34.183Z"
+        }
+    ],
+    "hotReason": "NEXT_CTD",
+    "_owner": "571ff6b3c373568e01d2837d",
+    "ratingDate": "2016-12-08T23:32:47.781Z",
+    "cooldown": "2017-04-13T03:29:37.520Z"
+}

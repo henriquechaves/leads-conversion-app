@@ -1,0 +1,238 @@
+{
+    "_id": "5836da42523c28eaccd257e3",
+    "updatedAt": "2017-03-31T02:23:50.769Z",
+    "createdAt": "2016-11-24T12:17:06.590Z",
+    "crmRecordId": "00Q3600000TOxKZEA1",
+    "name": "Priscila Renon Renon",
+    "phoneNumber": "(27) 99970-5560",
+    "email": "mateus.freir.a@gmail.com",
+    "source": null,
+    "status": "Open - Not Contacted",
+    "module": "Lead",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "createdBy": "5824d5df4e0b31a4b2a3b3df",
+    "link": "https://na30.salesforce.com/00Q3600000TOxKZEA1",
+    "_sequences": [
+        {
+            "startDate": "2016-12-01T13:56:46.265Z",
+            "currentStepStartDate": "2016-12-01T13:56:46.265Z",
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStep": 1,
+            "_segment": null,
+            "_sequence": {
+                "_id": "583b95b8e4c172ea0a2812d4",
+                "name": "Sequence Mateus",
+                "active": true
+            },
+            "currentStepError": "\"Missing integration\"",
+            "currentStepErrorMessage": "Missing integration",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-12-01T13:56:46.265Z"
+        }
+    ],
+    "_segments": [
+        {
+            "segment": {
+                "_id": "5836da41523c28eaccd257d0",
+                "name": "My big CSV"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58339f369eeee95d28d4867c",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582a16d9cfbe4205313a7a8f",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": true,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58684040a48c900a4dae107e",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "586c171e3189d78ca9d2e9ca",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "586c743fd3fb64d1c2232e79",
+                "name": "Leads #3"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ],
+    "customFields": {
+        "LastName": {
+            "name": "LastName",
+            "label": "Last Name",
+            "type": "string",
+            "custom": false,
+            "value": "Renon"
+        },
+        "FirstName": {
+            "name": "FirstName",
+            "label": "First Name",
+            "type": "string",
+            "custom": false,
+            "value": "Priscila Renon"
+        },
+        "IsDeleted": {
+            "name": "IsDeleted",
+            "label": "Deleted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "Title": {
+            "name": "Title",
+            "label": "Title",
+            "type": "string",
+            "custom": false,
+            "value": "125996"
+        },
+        "Company": {
+            "name": "Company",
+            "label": "Company",
+            "type": "string",
+            "custom": false,
+            "value": "No company specified"
+        },
+        "PhotoUrl": {
+            "name": "PhotoUrl",
+            "label": "Photo URL",
+            "type": "url",
+            "custom": false,
+            "value": "/services/images/photo/00Q3600000TOxKZEA1"
+        },
+        "OwnerId": {
+            "name": "OwnerId",
+            "label": "Owner ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "IsConverted": {
+            "name": "IsConverted",
+            "label": "Converted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "IsUnreadByOwner": {
+            "name": "IsUnreadByOwner",
+            "label": "Unread By Owner",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "CreatedDate": {
+            "name": "CreatedDate",
+            "label": "Created Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-25T14:47:26.000+0000"
+        },
+        "CreatedById": {
+            "name": "CreatedById",
+            "label": "Created By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "LastModifiedDate": {
+            "name": "LastModifiedDate",
+            "label": "Last Modified Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-01T13:58:37.000+0000"
+        },
+        "LastModifiedById": {
+            "name": "LastModifiedById",
+            "label": "Last Modified By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "SystemModstamp": {
+            "name": "SystemModstamp",
+            "label": "System Modstamp",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-09T02:25:22.000+0000"
+        },
+        "LastViewedDate": {
+            "name": "LastViewedDate",
+            "label": "Last Viewed Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-09T02:25:21.000+0000"
+        },
+        "LastReferencedDate": {
+            "name": "LastReferencedDate",
+            "label": "Last Referenced Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-09T02:25:21.000+0000"
+        },
+        "CleanStatus": {
+            "name": "CleanStatus",
+            "label": "Clean Status",
+            "type": "picklist",
+            "custom": false,
+            "value": "Pending"
+        },
+        "LAD__c": {
+            "name": "LAD__c",
+            "label": "LAD",
+            "type": "date",
+            "custom": true,
+            "value": "2016-12-08"
+        }
+    },
+    "rating": 0,
+    "callCount": 1,
+    "isHot": false,
+    "__v": 0,
+    "lastActivity": "2016-12-08T12:00:00.000Z",
+    "firstActivity": "2016-12-09T02:25:21.288Z",
+    "hotReason": "NEXT_CTD",
+    "_owner": "571ff6b3c373568e01d2837d"
+}

@@ -1,0 +1,239 @@
+{
+    "_id": "582b72ecf489d10700899fc3",
+    "updatedAt": "2017-03-31T02:23:50.699Z",
+    "createdAt": "2016-11-15T20:41:16.376Z",
+    "crmRecordId": "00Q3600000RScKTEA1",
+    "name": "Michael Hughes",
+    "phoneNumber": "(408) 342-5420",
+    "email": "m.a.t.e.u.s.f.e.r.i.r.a@gmail.com",
+    "source": null,
+    "status": "Open - Not Contacted",
+    "module": "Lead",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "createdBy": "5824d5df4e0b31a4b2a3b3df",
+    "link": "https://na30.salesforce.com/00Q3600000RScKTEA1",
+    "_sequences": [
+        {
+            "currentStepErrorMessage": "Missing integration",
+            "currentStepError": "\"Missing integration\"",
+            "_sequence": {
+                "_id": "583b95b8e4c172ea0a2812d4",
+                "name": "Sequence Mateus",
+                "active": true
+            },
+            "_segment": null,
+            "currentStep": 1,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-12-01T14:04:54.198Z",
+            "startDate": "2016-12-01T14:04:54.198Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-12-01T14:04:54.198Z"
+        }
+    ],
+    "_segments": [
+        {
+            "segment": {
+                "_id": "582b72ecf489d10700899fa8",
+                "name": "CSV #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58339f369eeee95d28d4867c",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582a16d9cfbe4205313a7a8f",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "586c171e3189d78ca9d2e9ca",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ],
+    "customFields": {
+        "LastName": {
+            "name": "LastName",
+            "label": "Last Name",
+            "type": "string",
+            "custom": false,
+            "value": "Hughes"
+        },
+        "FirstName": {
+            "name": "FirstName",
+            "label": "First Name",
+            "type": "string",
+            "custom": false,
+            "value": "Michael"
+        },
+        "IsDeleted": {
+            "name": "IsDeleted",
+            "label": "Deleted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "Title": {
+            "name": "Title",
+            "label": "Title",
+            "type": "string",
+            "custom": false,
+            "value": "Senior VP, Worldwide Sales"
+        },
+        "Company": {
+            "name": "Company",
+            "label": "Company",
+            "type": "string",
+            "custom": false,
+            "value": "Barracuda Networks"
+        },
+        "City": {
+            "name": "City",
+            "label": "City",
+            "type": "string",
+            "custom": false,
+            "value": "Campbell"
+        },
+        "State": {
+            "name": "State",
+            "label": "State/Province",
+            "type": "string",
+            "custom": false,
+            "value": "CA"
+        },
+        "MobilePhone": {
+            "name": "MobilePhone",
+            "label": "Mobile Phone",
+            "type": "phone",
+            "custom": false,
+            "value": "011553135315148"
+        },
+        "Website": {
+            "name": "Website",
+            "label": "Website",
+            "type": "url",
+            "custom": false,
+            "value": "www.barracuda.com"
+        },
+        "PhotoUrl": {
+            "name": "PhotoUrl",
+            "label": "Photo URL",
+            "type": "url",
+            "custom": false,
+            "value": "/services/images/photo/00Q3600000RScKTEA1"
+        },
+        "OwnerId": {
+            "name": "OwnerId",
+            "label": "Owner ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "IsConverted": {
+            "name": "IsConverted",
+            "label": "Converted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "IsUnreadByOwner": {
+            "name": "IsUnreadByOwner",
+            "label": "Unread By Owner",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "CreatedDate": {
+            "name": "CreatedDate",
+            "label": "Created Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-15T21:19:26.000+0000"
+        },
+        "CreatedById": {
+            "name": "CreatedById",
+            "label": "Created By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "LastModifiedDate": {
+            "name": "LastModifiedDate",
+            "label": "Last Modified Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-13T21:55:46.000+0000"
+        },
+        "LastModifiedById": {
+            "name": "LastModifiedById",
+            "label": "Last Modified By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "SystemModstamp": {
+            "name": "SystemModstamp",
+            "label": "System Modstamp",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-15T01:39:25.000+0000"
+        },
+        "LastViewedDate": {
+            "name": "LastViewedDate",
+            "label": "Last Viewed Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-13T21:55:46.000+0000"
+        },
+        "LastReferencedDate": {
+            "name": "LastReferencedDate",
+            "label": "Last Referenced Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-12-13T21:55:46.000+0000"
+        },
+        "CleanStatus": {
+            "name": "CleanStatus",
+            "label": "Clean Status",
+            "type": "picklist",
+            "custom": false,
+            "value": "Pending"
+        }
+    },
+    "rating": 0,
+    "callCount": 0,
+    "isHot": false,
+    "__v": 0,
+    "lastActivity": null,
+    "firstActivity": null
+}

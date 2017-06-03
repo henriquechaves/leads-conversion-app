@@ -1,0 +1,147 @@
+{
+    "_id": "5875ffd64e0b31a4b2a7b5d3",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "crmRecordId": "00Q3600000WoR1iEAF",
+    "link": "https://na30.salesforce.com/00Q3600000WoR1iEAF",
+    "status": "Open - Not Contacted",
+    "module": "Lead",
+    "email": "klaramore@tenfold.com",
+    "phoneNumber": "5124364091",
+    "name": "Kane",
+    "updatedAt": "2017-03-31T02:23:50.798Z",
+    "__v": 0,
+    "createdAt": "2017-01-11T09:50:14.014Z",
+    "isHot": false,
+    "callCount": 0,
+    "rating": 0,
+    "customFields": {
+        "LastName": {
+            "name": "LastName",
+            "label": "Last Name",
+            "type": "string",
+            "custom": false,
+            "value": "Kane"
+        },
+        "IsDeleted": {
+            "name": "IsDeleted",
+            "label": "Deleted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "Company": {
+            "name": "Company",
+            "label": "Company",
+            "type": "string",
+            "custom": false,
+            "value": "No company specified"
+        },
+        "PhotoUrl": {
+            "name": "PhotoUrl",
+            "label": "Photo URL",
+            "type": "url",
+            "custom": false,
+            "value": "/services/images/photo/00Q3600000WoR1iEAF"
+        },
+        "OwnerId": {
+            "name": "OwnerId",
+            "label": "Owner ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "IsConverted": {
+            "name": "IsConverted",
+            "label": "Converted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "IsUnreadByOwner": {
+            "name": "IsUnreadByOwner",
+            "label": "Unread By Owner",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "CreatedDate": {
+            "name": "CreatedDate",
+            "label": "Created Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-01-11T09:44:06.000+0000"
+        },
+        "CreatedById": {
+            "name": "CreatedById",
+            "label": "Created By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "LastModifiedDate": {
+            "name": "LastModifiedDate",
+            "label": "Last Modified Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-01-11T09:44:06.000+0000"
+        },
+        "LastModifiedById": {
+            "name": "LastModifiedById",
+            "label": "Last Modified By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "SystemModstamp": {
+            "name": "SystemModstamp",
+            "label": "System Modstamp",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-02-21T17:35:03.000+0000"
+        },
+        "LastViewedDate": {
+            "name": "LastViewedDate",
+            "label": "Last Viewed Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-01-13T18:46:18.000+0000"
+        },
+        "LastReferencedDate": {
+            "name": "LastReferencedDate",
+            "label": "Last Referenced Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2017-01-13T18:46:18.000+0000"
+        },
+        "CleanStatus": {
+            "name": "CleanStatus",
+            "label": "Clean Status",
+            "type": "picklist",
+            "custom": false,
+            "value": "Pending"
+        },
+        "LAD__c": {
+            "name": "LAD__c",
+            "label": "LAD",
+            "type": "date",
+            "custom": true,
+            "value": "2017-02-21"
+        }
+    },
+    "_segments": [
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ],
+    "_sequences": [],
+    "createdBy": "588664fd4e0b31a4b2a87c6d",
+    "lastActivity": "2017-02-21T12:00:00.000Z",
+    "firstActivity": null,
+    "source": null
+}

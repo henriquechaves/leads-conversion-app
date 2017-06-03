@@ -1,0 +1,3027 @@
+[
+   {
+      "_id":"58ddbdb57448120700e5abff",
+      "updatedAt":"2017-04-03T15:53:14.877Z",
+      "createdAt":"2017-03-31T02:23:49.203Z",
+      "name":"Leads",
+      "module":"Lead",
+      "source":"builder",
+      "_organization":"571ff6b3c373568e01d2837e",
+      "createdBy":"571ff6b3c373568e01d2837d",
+      "_sequences":[],
+      "stats":{
+         "email":{
+            "sent":0,
+            "open":0,
+            "clicked":0,
+            "delivered":0,
+            "replies":0
+         },
+         "sms":{
+            "sent":0,
+            "clicked":0,
+            "delivered":0,
+            "replies":0
+         }
+      },
+      "contacted":0,
+      "deleted":false,
+      "filters":[],
+      "fields":[
+         {
+            "name":"LastName",
+            "label":"Last Name",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"FirstName",
+            "label":"First Name",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Name",
+            "label":"Full Name",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"name",
+            "visible":true
+         },
+         {
+            "name":"Id",
+            "label":"Lead ID",
+            "type":"id",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"crmRecordId",
+            "visible":false
+         },
+         {
+            "name":"IsDeleted",
+            "label":"Deleted",
+            "type":"boolean",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"MasterRecordId",
+            "label":"Master Record ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Salutation",
+            "label":"Salutation",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Mr.",
+                  "validFor":null,
+                  "value":"Mr."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Ms.",
+                  "validFor":null,
+                  "value":"Ms."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Mrs.",
+                  "validFor":null,
+                  "value":"Mrs."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Dr.",
+                  "validFor":null,
+                  "value":"Dr."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Prof.",
+                  "validFor":null,
+                  "value":"Prof."
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Title",
+            "label":"Title",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Company",
+            "label":"Company",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":true
+         },
+         {
+            "name":"Street",
+            "label":"Street",
+            "type":"textarea",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"City",
+            "label":"City",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"State",
+            "label":"State/Province",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"PostalCode",
+            "label":"Zip/Postal Code",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Country",
+            "label":"Country",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Latitude",
+            "label":"Latitude",
+            "type":"double",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Longitude",
+            "label":"Longitude",
+            "type":"double",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"GeocodeAccuracy",
+            "label":"Geocode Accuracy",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Address",
+                  "validFor":null,
+                  "value":"Address"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"NearAddress",
+                  "validFor":null,
+                  "value":"NearAddress"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Block",
+                  "validFor":null,
+                  "value":"Block"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Street",
+                  "validFor":null,
+                  "value":"Street"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"ExtendedZip",
+                  "validFor":null,
+                  "value":"ExtendedZip"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Zip",
+                  "validFor":null,
+                  "value":"Zip"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Neighborhood",
+                  "validFor":null,
+                  "value":"Neighborhood"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"City",
+                  "validFor":null,
+                  "value":"City"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"County",
+                  "validFor":null,
+                  "value":"County"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"State",
+                  "validFor":null,
+                  "value":"State"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Unknown",
+                  "validFor":null,
+                  "value":"Unknown"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Phone",
+            "label":"Phone",
+            "type":"phone",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"phoneNumber",
+            "visible":false
+         },
+         {
+            "name":"MobilePhone",
+            "label":"Mobile Phone",
+            "type":"phone",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Fax",
+            "label":"Fax",
+            "type":"phone",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Email",
+            "label":"Email",
+            "type":"email",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"email",
+            "visible":false
+         },
+         {
+            "name":"Website",
+            "label":"Website",
+            "type":"url",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"PhotoUrl",
+            "label":"Photo URL",
+            "type":"url",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Description",
+            "label":"Description",
+            "type":"textarea",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LeadSource",
+            "label":"Lead Source",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Web",
+                  "validFor":null,
+                  "value":"Web"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Phone Inquiry",
+                  "validFor":null,
+                  "value":"Phone Inquiry"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Partner Referral",
+                  "validFor":null,
+                  "value":"Partner Referral"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Purchased List",
+                  "validFor":null,
+                  "value":"Purchased List"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Other",
+                  "validFor":null,
+                  "value":"Other"
+               }
+            ],
+            "ref":"source",
+            "visible":true
+         },
+         {
+            "name":"Status",
+            "label":"Status",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":true,
+                  "label":"Open - Not Contacted",
+                  "validFor":null,
+                  "value":"Open - Not Contacted"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Working - Contacted",
+                  "validFor":null,
+                  "value":"Working - Contacted"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Closed - Converted",
+                  "validFor":null,
+                  "value":"Closed - Converted"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Closed - Not Converted",
+                  "validFor":null,
+                  "value":"Closed - Not Converted"
+               }
+            ],
+            "ref":"status",
+            "visible":true
+         },
+         {
+            "name":"Industry",
+            "label":"Industry",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Agriculture",
+                  "validFor":null,
+                  "value":"Agriculture"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Apparel",
+                  "validFor":null,
+                  "value":"Apparel"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Banking",
+                  "validFor":null,
+                  "value":"Banking"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Biotechnology",
+                  "validFor":null,
+                  "value":"Biotechnology"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Chemicals",
+                  "validFor":null,
+                  "value":"Chemicals"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Communications",
+                  "validFor":null,
+                  "value":"Communications"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Construction",
+                  "validFor":null,
+                  "value":"Construction"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Consulting",
+                  "validFor":null,
+                  "value":"Consulting"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Education",
+                  "validFor":null,
+                  "value":"Education"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Electronics",
+                  "validFor":null,
+                  "value":"Electronics"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Energy",
+                  "validFor":null,
+                  "value":"Energy"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Engineering",
+                  "validFor":null,
+                  "value":"Engineering"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Entertainment",
+                  "validFor":null,
+                  "value":"Entertainment"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Environmental",
+                  "validFor":null,
+                  "value":"Environmental"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Finance",
+                  "validFor":null,
+                  "value":"Finance"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Food & Beverage",
+                  "validFor":null,
+                  "value":"Food & Beverage"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Government",
+                  "validFor":null,
+                  "value":"Government"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Healthcare",
+                  "validFor":null,
+                  "value":"Healthcare"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Hospitality",
+                  "validFor":null,
+                  "value":"Hospitality"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Insurance",
+                  "validFor":null,
+                  "value":"Insurance"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Machinery",
+                  "validFor":null,
+                  "value":"Machinery"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Manufacturing",
+                  "validFor":null,
+                  "value":"Manufacturing"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Media",
+                  "validFor":null,
+                  "value":"Media"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Not For Profit",
+                  "validFor":null,
+                  "value":"Not For Profit"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Recreation",
+                  "validFor":null,
+                  "value":"Recreation"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Retail",
+                  "validFor":null,
+                  "value":"Retail"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Shipping",
+                  "validFor":null,
+                  "value":"Shipping"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Technology",
+                  "validFor":null,
+                  "value":"Technology"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Telecommunications",
+                  "validFor":null,
+                  "value":"Telecommunications"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Transportation",
+                  "validFor":null,
+                  "value":"Transportation"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Utilities",
+                  "validFor":null,
+                  "value":"Utilities"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Other",
+                  "validFor":null,
+                  "value":"Other"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Rating",
+            "label":"Rating",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Hot",
+                  "validFor":null,
+                  "value":"Hot"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Warm",
+                  "validFor":null,
+                  "value":"Warm"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Cold",
+                  "validFor":null,
+                  "value":"Cold"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"AnnualRevenue",
+            "label":"Annual Revenue",
+            "type":"currency",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"NumberOfEmployees",
+            "label":"Employees",
+            "type":"int",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"OwnerId",
+            "label":"Owner ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"IsConverted",
+            "label":"Converted",
+            "type":"boolean",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedDate",
+            "label":"Converted Date",
+            "type":"date",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedAccountId",
+            "label":"Converted Account ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedContactId",
+            "label":"Converted Contact ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedOpportunityId",
+            "label":"Converted Opportunity ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"IsUnreadByOwner",
+            "label":"Unread By Owner",
+            "type":"boolean",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CreatedDate",
+            "label":"Created Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CreatedById",
+            "label":"Created By ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastModifiedDate",
+            "label":"Last Modified Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastModifiedById",
+            "label":"Last Modified By ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"SystemModstamp",
+            "label":"System Modstamp",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastActivityDate",
+            "label":"Last Activity",
+            "type":"date",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"lastActivity",
+            "visible":true
+         },
+         {
+            "name":"LastViewedDate",
+            "label":"Last Viewed Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastReferencedDate",
+            "label":"Last Referenced Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Jigsaw",
+            "label":"Data.com Key",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"JigsawContactId",
+            "label":"Jigsaw Contact ID",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CleanStatus",
+            "label":"Clean Status",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"In Sync",
+                  "validFor":null,
+                  "value":"Matched"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Different",
+                  "validFor":null,
+                  "value":"Different"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Reviewed",
+                  "validFor":null,
+                  "value":"Acknowledged"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Not Found",
+                  "validFor":null,
+                  "value":"NotFound"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Inactive",
+                  "validFor":null,
+                  "value":"Inactive"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Not Compared",
+                  "validFor":null,
+                  "value":"Pending"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Select Match",
+                  "validFor":null,
+                  "value":"SelectMatch"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Skipped",
+                  "validFor":null,
+                  "value":"Skipped"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"CompanyDunsNumber",
+            "label":"Company D-U-N-S Number",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"DandbCompanyId",
+            "label":"D&B Company ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"EmailBouncedReason",
+            "label":"Email Bounced Reason",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"EmailBouncedDate",
+            "label":"Email Bounced Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"SICCode__c",
+            "label":"SIC Code",
+            "type":"string",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ProductInterest__c",
+            "label":"Product Interest",
+            "type":"picklist",
+            "custom":true,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"GC1000 series",
+                  "validFor":null,
+                  "value":"GC1000 series"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"GC5000 series",
+                  "validFor":null,
+                  "value":"GC5000 series"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"GC3000 series",
+                  "validFor":null,
+                  "value":"GC3000 series"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Primary__c",
+            "label":"Primary",
+            "type":"picklist",
+            "custom":true,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"No",
+                  "validFor":null,
+                  "value":"No"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Yes",
+                  "validFor":null,
+                  "value":"Yes"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"CurrentGenerators__c",
+            "label":"Current Generator(s)",
+            "type":"string",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"NumberofLocations__c",
+            "label":"Number of Locations",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CPhone__c",
+            "label":"CPhone",
+            "type":"phone",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CID__c",
+            "label":"CID",
+            "type":"string",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Multipicklist__c",
+            "label":"Multipicklist",
+            "type":"multipicklist",
+            "custom":true,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Option 1",
+                  "validFor":null,
+                  "value":"Option 1"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Option 2",
+                  "validFor":null,
+                  "value":"Option 2"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Option 3",
+                  "validFor":null,
+                  "value":"Option 3"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__CloseDate__c",
+            "label":"NeuralView: Close Score Last Updated",
+            "type":"datetime",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__CloseScore__c",
+            "label":"NeuralView: Close Score",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ContactDate__c",
+            "label":"NeuralView: Contactability Last Updated",
+            "type":"datetime",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ContactScoreId__c",
+            "label":"NeuralView: Hourly Contactability ID",
+            "type":"reference",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ContactScore__c",
+            "label":"NeuralView: Contactability Score",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__Dials__c",
+            "label":"Dials",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__LastCallTime__c",
+            "label":"Last Call Time",
+            "type":"datetime",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ResponseTime__c",
+            "label":"Response Time",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LAD__c",
+            "label":"LAD",
+            "type":"date",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "label":"Rating",
+            "name":"rating",
+            "type":"int",
+            "ref":"rating",
+            "next":true,
+            "visible":true
+         }
+      ],
+      "everyone":false,
+      "_users":["571ff6b3c373568e01d2837d"],
+      "_teams":[],
+      "_records":[
+         "58de09791d1093e2f6dd170c",
+         "58e26fea1d1093e2f6dd2e34"
+      ],
+      "__v":0,
+      "filterOptions":{
+         "Industry":{
+            "name":"Industry",
+            "label":"Industry",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Entertainment",
+               "Agriculture",
+               "Apparel",
+               "Engineering",
+               null
+            ]
+         },
+         "IsConverted":{
+            "name":"IsConverted",
+            "label":"Converted",
+            "type":"boolean",
+            "custom":true,
+            "values":[
+               false,
+               true
+            ]
+         },
+         "IsUnreadByOwner":{
+            "name":"IsUnreadByOwner",
+            "label":"Unread By Owner",
+            "type":"boolean",
+            "custom":true,
+            "values":[
+               false,
+               true
+            ]
+         },
+         "City":{
+            "name":"City",
+            "label":"City",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "Campbell",
+               "McLean",
+               "Betim",
+               "Tallahassee",
+               "Burlington",
+               null
+            ]
+         },
+         "State":{
+            "name":"State",
+            "label":"State/Province",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "CA",
+               "VA",
+               "MG",
+               "FL",
+               "MD",
+               "NC",
+               "IL",
+               "GA",
+               "CT",
+               "MN",
+               "PA",
+               "OH",
+               "KS",
+               "AL",
+               "MA",
+               null
+            ]
+         },
+         "PostalCode":{
+            "name":"PostalCode",
+            "label":"Zip/Postal Code",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "32800000",
+               "32306",
+               "27215",
+               null
+            ]
+         },
+         "Country":{
+            "name":"Country",
+            "label":"Country",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "Brazil",
+               "USA",
+               "Taiwan",
+               "France",
+               "Japan",
+               null
+            ]
+         },
+         "CID__c":{
+            "name":"CID__c",
+            "label":"CID",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "1244565876976",
+               "15124364091",
+               null
+            ]
+         },
+         "Salutation":{
+            "name":"Salutation",
+            "label":"Salutation",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Ms.",
+               "Ms",
+               "Mr",
+               "Mr.",
+               null
+            ]
+         },
+         "Rating":{
+            "name":"Rating",
+            "label":"Rating",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Hot",
+               "Warm",
+               null
+            ]
+         },
+         "SICCode__c":{
+            "name":"SICCode__c",
+            "label":"SIC Code",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "2768",
+               "7267",
+               null
+            ]
+         },
+         "ProductInterest__c":{
+            "name":"ProductInterest__c",
+            "label":"Product Interest",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "GC5000 series",
+               null
+            ]
+         },
+         "Primary__c":{
+            "name":"Primary__c",
+            "label":"Primary",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Yes",
+               null
+            ]
+         },
+         "CurrentGenerators__c":{
+            "name":"CurrentGenerators__c",
+            "label":"Current Generator(s)",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "All",
+               "John Deere",
+               null
+            ]
+         },
+         "source":{
+            "custom":false,
+            "label":"Source",
+            "name":"source",
+            "ref":"source",
+            "type":"picklist",
+            "values":[
+               "Web",
+               null,
+               "Phone Inquiry",
+               "Purchased List",
+               "Partner Referral"
+            ]
+         },
+         "status":{
+            "custom":false,
+            "label":"Status",
+            "name":"status",
+            "ref":"status",
+            "type":"picklist",
+            "values":[
+               "Open - Not Contacted",
+               "Working - Contacted",
+               "Closed - Not Converted",
+               "Closed - Converted"
+            ]
+         }
+      }
+   },
+
+   {
+      "_id":"58ddbdb57448120700e5abfy",
+      "updatedAt":"2017-04-03T15:53:14.877Z",
+      "createdAt":"2017-03-31T02:23:49.203Z",
+      "name":"Leads",
+      "module":"Lead",
+      "source":"builder",
+      "_organization":"571ff6b3c373568e01d2837e",
+      "createdBy":"571ff6b3c373568e01d2837d",
+      "_sequences":[],
+      "stats":{
+         "email":{
+            "sent":0,
+            "open":0,
+            "clicked":0,
+            "delivered":0,
+            "replies":0
+         },
+         "sms":{
+            "sent":0,
+            "clicked":0,
+            "delivered":0,
+            "replies":0
+         }
+      },
+      "contacted":0,
+      "deleted":false,
+      "filters":[],
+      "fields":[
+         {
+            "name":"LastName",
+            "label":"Last Name",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"FirstName",
+            "label":"First Name",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Name",
+            "label":"Full Name",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"name",
+            "visible":true
+         },
+         {
+            "name":"Id",
+            "label":"Lead ID",
+            "type":"id",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"crmRecordId",
+            "visible":false
+         },
+         {
+            "name":"IsDeleted",
+            "label":"Deleted",
+            "type":"boolean",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"MasterRecordId",
+            "label":"Master Record ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Salutation",
+            "label":"Salutation",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Mr.",
+                  "validFor":null,
+                  "value":"Mr."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Ms.",
+                  "validFor":null,
+                  "value":"Ms."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Mrs.",
+                  "validFor":null,
+                  "value":"Mrs."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Dr.",
+                  "validFor":null,
+                  "value":"Dr."
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Prof.",
+                  "validFor":null,
+                  "value":"Prof."
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Title",
+            "label":"Title",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Company",
+            "label":"Company",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":true
+         },
+         {
+            "name":"Street",
+            "label":"Street",
+            "type":"textarea",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"City",
+            "label":"City",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"State",
+            "label":"State/Province",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"PostalCode",
+            "label":"Zip/Postal Code",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Country",
+            "label":"Country",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Latitude",
+            "label":"Latitude",
+            "type":"double",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Longitude",
+            "label":"Longitude",
+            "type":"double",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"GeocodeAccuracy",
+            "label":"Geocode Accuracy",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Address",
+                  "validFor":null,
+                  "value":"Address"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"NearAddress",
+                  "validFor":null,
+                  "value":"NearAddress"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Block",
+                  "validFor":null,
+                  "value":"Block"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Street",
+                  "validFor":null,
+                  "value":"Street"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"ExtendedZip",
+                  "validFor":null,
+                  "value":"ExtendedZip"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Zip",
+                  "validFor":null,
+                  "value":"Zip"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Neighborhood",
+                  "validFor":null,
+                  "value":"Neighborhood"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"City",
+                  "validFor":null,
+                  "value":"City"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"County",
+                  "validFor":null,
+                  "value":"County"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"State",
+                  "validFor":null,
+                  "value":"State"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Unknown",
+                  "validFor":null,
+                  "value":"Unknown"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Phone",
+            "label":"Phone",
+            "type":"phone",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"phoneNumber",
+            "visible":false
+         },
+         {
+            "name":"MobilePhone",
+            "label":"Mobile Phone",
+            "type":"phone",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Fax",
+            "label":"Fax",
+            "type":"phone",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Email",
+            "label":"Email",
+            "type":"email",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"email",
+            "visible":false
+         },
+         {
+            "name":"Website",
+            "label":"Website",
+            "type":"url",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"PhotoUrl",
+            "label":"Photo URL",
+            "type":"url",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Description",
+            "label":"Description",
+            "type":"textarea",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LeadSource",
+            "label":"Lead Source",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Web",
+                  "validFor":null,
+                  "value":"Web"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Phone Inquiry",
+                  "validFor":null,
+                  "value":"Phone Inquiry"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Partner Referral",
+                  "validFor":null,
+                  "value":"Partner Referral"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Purchased List",
+                  "validFor":null,
+                  "value":"Purchased List"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Other",
+                  "validFor":null,
+                  "value":"Other"
+               }
+            ],
+            "ref":"source",
+            "visible":true
+         },
+         {
+            "name":"Status",
+            "label":"Status",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":true,
+                  "label":"Open - Not Contacted",
+                  "validFor":null,
+                  "value":"Open - Not Contacted"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Working - Contacted",
+                  "validFor":null,
+                  "value":"Working - Contacted"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Closed - Converted",
+                  "validFor":null,
+                  "value":"Closed - Converted"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Closed - Not Converted",
+                  "validFor":null,
+                  "value":"Closed - Not Converted"
+               }
+            ],
+            "ref":"status",
+            "visible":true
+         },
+         {
+            "name":"Industry",
+            "label":"Industry",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Agriculture",
+                  "validFor":null,
+                  "value":"Agriculture"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Apparel",
+                  "validFor":null,
+                  "value":"Apparel"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Banking",
+                  "validFor":null,
+                  "value":"Banking"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Biotechnology",
+                  "validFor":null,
+                  "value":"Biotechnology"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Chemicals",
+                  "validFor":null,
+                  "value":"Chemicals"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Communications",
+                  "validFor":null,
+                  "value":"Communications"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Construction",
+                  "validFor":null,
+                  "value":"Construction"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Consulting",
+                  "validFor":null,
+                  "value":"Consulting"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Education",
+                  "validFor":null,
+                  "value":"Education"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Electronics",
+                  "validFor":null,
+                  "value":"Electronics"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Energy",
+                  "validFor":null,
+                  "value":"Energy"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Engineering",
+                  "validFor":null,
+                  "value":"Engineering"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Entertainment",
+                  "validFor":null,
+                  "value":"Entertainment"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Environmental",
+                  "validFor":null,
+                  "value":"Environmental"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Finance",
+                  "validFor":null,
+                  "value":"Finance"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Food & Beverage",
+                  "validFor":null,
+                  "value":"Food & Beverage"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Government",
+                  "validFor":null,
+                  "value":"Government"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Healthcare",
+                  "validFor":null,
+                  "value":"Healthcare"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Hospitality",
+                  "validFor":null,
+                  "value":"Hospitality"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Insurance",
+                  "validFor":null,
+                  "value":"Insurance"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Machinery",
+                  "validFor":null,
+                  "value":"Machinery"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Manufacturing",
+                  "validFor":null,
+                  "value":"Manufacturing"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Media",
+                  "validFor":null,
+                  "value":"Media"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Not For Profit",
+                  "validFor":null,
+                  "value":"Not For Profit"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Recreation",
+                  "validFor":null,
+                  "value":"Recreation"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Retail",
+                  "validFor":null,
+                  "value":"Retail"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Shipping",
+                  "validFor":null,
+                  "value":"Shipping"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Technology",
+                  "validFor":null,
+                  "value":"Technology"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Telecommunications",
+                  "validFor":null,
+                  "value":"Telecommunications"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Transportation",
+                  "validFor":null,
+                  "value":"Transportation"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Utilities",
+                  "validFor":null,
+                  "value":"Utilities"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Other",
+                  "validFor":null,
+                  "value":"Other"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Rating",
+            "label":"Rating",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Hot",
+                  "validFor":null,
+                  "value":"Hot"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Warm",
+                  "validFor":null,
+                  "value":"Warm"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Cold",
+                  "validFor":null,
+                  "value":"Cold"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"AnnualRevenue",
+            "label":"Annual Revenue",
+            "type":"currency",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"NumberOfEmployees",
+            "label":"Employees",
+            "type":"int",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"OwnerId",
+            "label":"Owner ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"IsConverted",
+            "label":"Converted",
+            "type":"boolean",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedDate",
+            "label":"Converted Date",
+            "type":"date",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedAccountId",
+            "label":"Converted Account ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedContactId",
+            "label":"Converted Contact ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ConvertedOpportunityId",
+            "label":"Converted Opportunity ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"IsUnreadByOwner",
+            "label":"Unread By Owner",
+            "type":"boolean",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CreatedDate",
+            "label":"Created Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CreatedById",
+            "label":"Created By ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastModifiedDate",
+            "label":"Last Modified Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastModifiedById",
+            "label":"Last Modified By ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"SystemModstamp",
+            "label":"System Modstamp",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastActivityDate",
+            "label":"Last Activity",
+            "type":"date",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "ref":"lastActivity",
+            "visible":true
+         },
+         {
+            "name":"LastViewedDate",
+            "label":"Last Viewed Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LastReferencedDate",
+            "label":"Last Referenced Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Jigsaw",
+            "label":"Data.com Key",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"JigsawContactId",
+            "label":"Jigsaw Contact ID",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CleanStatus",
+            "label":"Clean Status",
+            "type":"picklist",
+            "custom":false,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"In Sync",
+                  "validFor":null,
+                  "value":"Matched"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Different",
+                  "validFor":null,
+                  "value":"Different"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Reviewed",
+                  "validFor":null,
+                  "value":"Acknowledged"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Not Found",
+                  "validFor":null,
+                  "value":"NotFound"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Inactive",
+                  "validFor":null,
+                  "value":"Inactive"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Not Compared",
+                  "validFor":null,
+                  "value":"Pending"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Select Match",
+                  "validFor":null,
+                  "value":"SelectMatch"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Skipped",
+                  "validFor":null,
+                  "value":"Skipped"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"CompanyDunsNumber",
+            "label":"Company D-U-N-S Number",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"DandbCompanyId",
+            "label":"D&B Company ID",
+            "type":"reference",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"EmailBouncedReason",
+            "label":"Email Bounced Reason",
+            "type":"string",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"EmailBouncedDate",
+            "label":"Email Bounced Date",
+            "type":"datetime",
+            "custom":false,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"SICCode__c",
+            "label":"SIC Code",
+            "type":"string",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"ProductInterest__c",
+            "label":"Product Interest",
+            "type":"picklist",
+            "custom":true,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"GC1000 series",
+                  "validFor":null,
+                  "value":"GC1000 series"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"GC5000 series",
+                  "validFor":null,
+                  "value":"GC5000 series"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"GC3000 series",
+                  "validFor":null,
+                  "value":"GC3000 series"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"Primary__c",
+            "label":"Primary",
+            "type":"picklist",
+            "custom":true,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"No",
+                  "validFor":null,
+                  "value":"No"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Yes",
+                  "validFor":null,
+                  "value":"Yes"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"CurrentGenerators__c",
+            "label":"Current Generator(s)",
+            "type":"string",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"NumberofLocations__c",
+            "label":"Number of Locations",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CPhone__c",
+            "label":"CPhone",
+            "type":"phone",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"CID__c",
+            "label":"CID",
+            "type":"string",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"Multipicklist__c",
+            "label":"Multipicklist",
+            "type":"multipicklist",
+            "custom":true,
+            "picklistValues":[
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Option 1",
+                  "validFor":null,
+                  "value":"Option 1"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Option 2",
+                  "validFor":null,
+                  "value":"Option 2"
+               },
+               {
+                  "active":true,
+                  "defaultValue":false,
+                  "label":"Option 3",
+                  "validFor":null,
+                  "value":"Option 3"
+               }
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__CloseDate__c",
+            "label":"NeuralView: Close Score Last Updated",
+            "type":"datetime",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__CloseScore__c",
+            "label":"NeuralView: Close Score",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ContactDate__c",
+            "label":"NeuralView: Contactability Last Updated",
+            "type":"datetime",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ContactScoreId__c",
+            "label":"NeuralView: Hourly Contactability ID",
+            "type":"reference",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ContactScore__c",
+            "label":"NeuralView: Contactability Score",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__Dials__c",
+            "label":"Dials",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__LastCallTime__c",
+            "label":"Last Call Time",
+            "type":"datetime",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"qbdialer__ResponseTime__c",
+            "label":"Response Time",
+            "type":"double",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "name":"LAD__c",
+            "label":"LAD",
+            "type":"date",
+            "custom":true,
+            "picklistValues":[
+
+            ],
+            "visible":false
+         },
+         {
+            "label":"Rating",
+            "name":"rating",
+            "type":"int",
+            "ref":"rating",
+            "next":true,
+            "visible":true
+         }
+      ],
+      "everyone":false,
+      "_users":["571ff6b3c373568e01d2837d"],
+      "_teams":[],
+      "_records":[
+         "5824d5df4e0b31a4b2a3b3d1",
+         "5824d83f14d3e8a3f0158353",
+         "5824d83f14d3e8a3f015835e",
+         "5824d83f14d3e8a3f015834f",
+         "5824d83f14d3e8a3f0158346",
+         "582b72ecf489d10700899fc3",
+         "582a17e74e0b31a4b2a40d7a",
+         "5824d83f14d3e8a3f015834a",
+         "5824d83f14d3e8a3f0158359",
+         "5824d83f14d3e8a3f0158363",
+         "5824d83f14d3e8a3f015834b",
+         "5824d83f14d3e8a3f015835d",
+         "5824d83f14d3e8a3f0158356",
+         "5824d83f14d3e8a3f0158354",
+         "582b72ecf489d10700899fc7",
+         "586c75b34e0b31a4b2a75bea",
+         "58ddbdb61d1093e2f6dd161f",
+         "5836da42523c28eaccd257ec",
+         "5836da42523c28eaccd257e3",
+         "588664fd4e0b31a4b2a87c6d",
+         "58a13e3a4e0b31a4b2a956cd",
+         "5875ffd64e0b31a4b2a7b5d3",
+         "58ddbdb61d1093e2f6dd1620",
+         "586c27044e0b31a4b2a75974",
+         "586c23124e0b31a4b2a75940",
+         "586c25a54e0b31a4b2a75962",
+         "5824d5df4e0b31a4b2a3b3d2",
+         "5824d5df4e0b31a4b2a3b3d3",
+         "5824d5df4e0b31a4b2a3b3d4",
+         "5824d5df4e0b31a4b2a3b3d5",
+         "5824d5df4e0b31a4b2a3b3d6",
+         "5824d5df4e0b31a4b2a3b3d7",
+         "5824d5df4e0b31a4b2a3b3d8",
+         "5824d5df4e0b31a4b2a3b3d9",
+         "5824d5df4e0b31a4b2a3b3db",
+         "5824d5df4e0b31a4b2a3b3da",
+         "5824d5df4e0b31a4b2a3b3dc",
+         "5824d5df4e0b31a4b2a3b3dd",
+         "5824d5df4e0b31a4b2a3b3de",
+         "5824d5df4e0b31a4b2a3b3df",
+         "5824d5df4e0b31a4b2a3b3e0",
+         "5824d5df4e0b31a4b2a3b3e1",
+         "5824d5df4e0b31a4b2a3b3e2",
+         "5824d5df4e0b31a4b2a3b3e3",
+         "5824d5df4e0b31a4b2a3b3e4",
+         "5824d5e04e0b31a4b2a3b3e6",
+         "5824d5e04e0b31a4b2a3b3e5",
+         "5824d5e04e0b31a4b2a3b3e7",
+         "5824d5e04e0b31a4b2a3b3e8",
+         "589d00e14e0b31a4b2a943ee",
+         "58ddbdb61d1093e2f6dd1621",
+         "58ddbdb61d1093e2f6dd1622",
+         "5824d83f14d3e8a3f0158366",
+         "5824d83f14d3e8a3f0158362",
+         "5824d83f14d3e8a3f015834e",
+         "5824d5e04e0b31a4b2a3b3e9",
+         "5824d83f14d3e8a3f0158361",
+         "5824d83f14d3e8a3f015835a",
+         "5824d83f14d3e8a3f015834c",
+         "5824d83f14d3e8a3f0158347",
+         "5824d83f14d3e8a3f0158350",
+         "5824d83f14d3e8a3f015835b",
+         "5824d5e04e0b31a4b2a3b3ea",
+         "5824d83f14d3e8a3f0158367",
+         "5824d83f14d3e8a3f015835f",
+         "5824d83f14d3e8a3f015835c",
+         "5824d83f14d3e8a3f0158357",
+         "5824d83f14d3e8a3f0158351",
+         "586c2ac54e0b31a4b2a75987",
+         "586c2bc14e0b31a4b2a75990",
+         "5824d67e4e0b31a4b2a3b40a",
+         "5824d83f14d3e8a3f0158355",
+         "5824d83f14d3e8a3f0158360",
+         "5824d83f14d3e8a3f0158364",
+         "5824d83f14d3e8a3f0158365",
+         "5824d83f14d3e8a3f0158358",
+         "5824d5e04e0b31a4b2a3b3eb",
+         "58ddbdb71d1093e2f6dd1623",
+         "58ddbdb71d1093e2f6dd1624",
+         "584eca624e0b31a4b2a683c0",
+         "5824d85f4e0b31a4b2a3b46a",
+         "5824d5df4e0b31a4b2a3b3d1",
+         "58de051d1d1093e2f6dd1700",
+         "58de07481d1093e2f6dd1703",
+         "58de07981d1093e2f6dd1706",
+         "58de09791d1093e2f6dd170c",
+         "58ddbdb61d1093e2f6dd161f"
+      ],
+      "__v":0,
+      "filterOptions":{
+         "Industry":{
+            "name":"Industry",
+            "label":"Industry",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Entertainment",
+               "Agriculture",
+               "Apparel",
+               "Engineering",
+               null
+            ]
+         },
+         "IsConverted":{
+            "name":"IsConverted",
+            "label":"Converted",
+            "type":"boolean",
+            "custom":true,
+            "values":[
+               false,
+               true
+            ]
+         },
+         "IsUnreadByOwner":{
+            "name":"IsUnreadByOwner",
+            "label":"Unread By Owner",
+            "type":"boolean",
+            "custom":true,
+            "values":[
+               false,
+               true
+            ]
+         },
+         "City":{
+            "name":"City",
+            "label":"City",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "Campbell",
+               "McLean",
+               "Betim",
+               "Tallahassee",
+               "Burlington",
+               null
+            ]
+         },
+         "State":{
+            "name":"State",
+            "label":"State/Province",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "CA",
+               "VA",
+               "MG",
+               "FL",
+               "MD",
+               "NC",
+               "IL",
+               "GA",
+               "CT",
+               "MN",
+               "PA",
+               "OH",
+               "KS",
+               "AL",
+               "MA",
+               null
+            ]
+         },
+         "PostalCode":{
+            "name":"PostalCode",
+            "label":"Zip/Postal Code",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "32800000",
+               "32306",
+               "27215",
+               null
+            ]
+         },
+         "Country":{
+            "name":"Country",
+            "label":"Country",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "Brazil",
+               "USA",
+               "Taiwan",
+               "France",
+               "Japan",
+               null
+            ]
+         },
+         "CID__c":{
+            "name":"CID__c",
+            "label":"CID",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "1244565876976",
+               "15124364091",
+               null
+            ]
+         },
+         "Salutation":{
+            "name":"Salutation",
+            "label":"Salutation",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Ms.",
+               "Ms",
+               "Mr",
+               "Mr.",
+               null
+            ]
+         },
+         "Rating":{
+            "name":"Rating",
+            "label":"Rating",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Hot",
+               "Warm",
+               null
+            ]
+         },
+         "SICCode__c":{
+            "name":"SICCode__c",
+            "label":"SIC Code",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "2768",
+               "7267",
+               null
+            ]
+         },
+         "ProductInterest__c":{
+            "name":"ProductInterest__c",
+            "label":"Product Interest",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "GC5000 series",
+               null
+            ]
+         },
+         "Primary__c":{
+            "name":"Primary__c",
+            "label":"Primary",
+            "type":"picklist",
+            "custom":true,
+            "values":[
+               "Yes",
+               null
+            ]
+         },
+         "CurrentGenerators__c":{
+            "name":"CurrentGenerators__c",
+            "label":"Current Generator(s)",
+            "type":"string",
+            "custom":true,
+            "values":[
+               "All",
+               "John Deere",
+               null
+            ]
+         },
+         "source":{
+            "custom":false,
+            "label":"Source",
+            "name":"source",
+            "ref":"source",
+            "type":"picklist",
+            "values":[
+               "Web",
+               null,
+               "Phone Inquiry",
+               "Purchased List",
+               "Partner Referral"
+            ]
+         },
+         "status":{
+            "custom":false,
+            "label":"Status",
+            "name":"status",
+            "ref":"status",
+            "type":"picklist",
+            "values":[
+               "Open - Not Contacted",
+               "Working - Contacted",
+               "Closed - Not Converted",
+               "Closed - Converted"
+            ]
+         }
+      }
+   }
+
+]

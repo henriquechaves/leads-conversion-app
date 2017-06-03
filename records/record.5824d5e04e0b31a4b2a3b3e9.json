@@ -1,0 +1,203 @@
+{
+    "_id": "5824d5e04e0b31a4b2a3b3e9",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "crmRecordId": "00Q3600000RRVXCEA5",
+    "link": "https://na30.salesforce.com/00Q3600000RRVXCEA5",
+    "callCount": 0,
+    "createdBy": null,
+    "customFields": {
+        "LastName": {
+            "name": "LastName",
+            "label": "Last Name",
+            "type": "string",
+            "custom": false,
+            "value": "Definido"
+        },
+        "FirstName": {
+            "name": "FirstName",
+            "label": "First Name",
+            "type": "string",
+            "custom": false,
+            "value": "Cachos"
+        },
+        "IsDeleted": {
+            "name": "IsDeleted",
+            "label": "Deleted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "Company": {
+            "name": "Company",
+            "label": "Company",
+            "type": "string",
+            "custom": false,
+            "value": "No company specified"
+        },
+        "PhotoUrl": {
+            "name": "PhotoUrl",
+            "label": "Photo URL",
+            "type": "url",
+            "custom": false,
+            "value": "/services/images/photo/00Q3600000RRVXCEA5"
+        },
+        "OwnerId": {
+            "name": "OwnerId",
+            "label": "Owner ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "IsConverted": {
+            "name": "IsConverted",
+            "label": "Converted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "IsUnreadByOwner": {
+            "name": "IsUnreadByOwner",
+            "label": "Unread By Owner",
+            "type": "boolean",
+            "custom": false,
+            "value": true
+        },
+        "CreatedDate": {
+            "name": "CreatedDate",
+            "label": "Created Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-10T19:22:25.000+0000"
+        },
+        "CreatedById": {
+            "name": "CreatedById",
+            "label": "Created By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "LastModifiedDate": {
+            "name": "LastModifiedDate",
+            "label": "Last Modified Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-10T19:22:25.000+0000"
+        },
+        "LastModifiedById": {
+            "name": "LastModifiedById",
+            "label": "Last Modified By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "SystemModstamp": {
+            "name": "SystemModstamp",
+            "label": "System Modstamp",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-10T19:22:25.000+0000"
+        },
+        "LastViewedDate": {
+            "name": "LastViewedDate",
+            "label": "Last Viewed Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-11T17:30:18.000+0000"
+        },
+        "LastReferencedDate": {
+            "name": "LastReferencedDate",
+            "label": "Last Referenced Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-11-11T17:30:18.000+0000"
+        },
+        "CleanStatus": {
+            "name": "CleanStatus",
+            "label": "Clean Status",
+            "type": "picklist",
+            "custom": false,
+            "value": "Pending"
+        }
+    },
+    "isHot": false,
+    "module": "Lead",
+    "lastActivity": null,
+    "firstActivity": null,
+    "status": "Open - Not Contacted",
+    "source": null,
+    "email": "cachos.definidos@hotmail.com",
+    "phoneNumber": "(73) 99981-1391",
+    "name": "Cachos Definido",
+    "updatedAt": "2017-03-31T02:23:51.018Z",
+    "__v": 0,
+    "createdAt": "2016-11-10T20:17:35.448Z",
+    "rating": 0,
+    "_segments": [
+        {
+            "segment": {
+                "_id": "5824d5da1ff0d5fc66c7997d",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582a16d9cfbe4205313a7a8f",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58339f369eeee95d28d4867c",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "586c171e3189d78ca9d2e9ca",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ],
+    "_sequences": [
+        {
+            "endReason": "finished",
+            "endDate": "2016-11-13T17:55:43.428Z",
+            "_sequence": {
+                "_id": "5827e2afb02626070027e934",
+                "name": "Sequence #1",
+                "active": true
+            },
+            "currentStep": 1,
+            "sequencedBy": {
+                "_id": "571ff6b3c373568e01d2837d",
+                "name": "Rhaylander Almeida"
+            },
+            "currentStepStartDate": "2016-11-13T14:58:56.051Z",
+            "startDate": "2016-11-13T14:58:56.051Z",
+            "steps": [],
+            "sendAsOwner": false,
+            "sequencedDate": "2016-11-13T14:58:56.051Z"
+        }
+    ]
+}

@@ -1,0 +1,355 @@
+{
+    "_id": "5824d5df4e0b31a4b2a3b3d2",
+    "_organization": "571ff6b3c373568e01d2837e",
+    "crmRecordId": "00Q36000009L7JbEAK",
+    "link": "https://na30.salesforce.com/00Q36000009L7JbEAK",
+    "callCount": 1,
+    "createdBy": "5824d5df4e0b31a4b2a3b3df",
+    "customFields": {
+        "LastName": {
+            "name": "LastName",
+            "label": "Last Name",
+            "type": "string",
+            "custom": false,
+            "value": "Boxer"
+        },
+        "FirstName": {
+            "name": "FirstName",
+            "label": "First Name",
+            "type": "string",
+            "custom": false,
+            "value": "Bertha"
+        },
+        "IsDeleted": {
+            "name": "IsDeleted",
+            "label": "Deleted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "Salutation": {
+            "name": "Salutation",
+            "label": "Salutation",
+            "type": "picklist",
+            "custom": false,
+            "value": "Ms."
+        },
+        "Title": {
+            "name": "Title",
+            "label": "Title",
+            "type": "string",
+            "custom": false,
+            "value": "Director of Vendor Relations"
+        },
+        "Company": {
+            "name": "Company",
+            "label": "Company",
+            "type": "string",
+            "custom": false,
+            "value": "Farmers Coop. of Florida"
+        },
+        "Street": {
+            "name": "Street",
+            "label": "Street",
+            "type": "textarea",
+            "custom": false,
+            "value": "321 Westcott Building"
+        },
+        "City": {
+            "name": "City",
+            "label": "City",
+            "type": "string",
+            "custom": false,
+            "value": "Tallahassee"
+        },
+        "State": {
+            "name": "State",
+            "label": "State/Province",
+            "type": "string",
+            "custom": false,
+            "value": "FL"
+        },
+        "PostalCode": {
+            "name": "PostalCode",
+            "label": "Zip/Postal Code",
+            "type": "string",
+            "custom": false,
+            "value": "32306"
+        },
+        "Country": {
+            "name": "Country",
+            "label": "Country",
+            "type": "string",
+            "custom": false,
+            "value": "USA"
+        },
+        "Fax": {
+            "name": "Fax",
+            "label": "Fax",
+            "type": "phone",
+            "custom": false,
+            "value": "(850) 644-4300"
+        },
+        "PhotoUrl": {
+            "name": "PhotoUrl",
+            "label": "Photo URL",
+            "type": "url",
+            "custom": false,
+            "value": "/services/images/photo/00Q36000009L7JbEAK"
+        },
+        "Industry": {
+            "name": "Industry",
+            "label": "Industry",
+            "type": "picklist",
+            "custom": false,
+            "value": "Agriculture"
+        },
+        "Rating": {
+            "name": "Rating",
+            "label": "Rating",
+            "type": "picklist",
+            "custom": false,
+            "value": "Hot"
+        },
+        "AnnualRevenue": {
+            "name": "AnnualRevenue",
+            "label": "Annual Revenue",
+            "type": "currency",
+            "custom": false,
+            "value": 900750000
+        },
+        "OwnerId": {
+            "name": "OwnerId",
+            "label": "Owner ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "IsConverted": {
+            "name": "IsConverted",
+            "label": "Converted",
+            "type": "boolean",
+            "custom": false,
+            "value": false
+        },
+        "IsUnreadByOwner": {
+            "name": "IsUnreadByOwner",
+            "label": "Unread By Owner",
+            "type": "boolean",
+            "custom": false,
+            "value": true
+        },
+        "CreatedDate": {
+            "name": "CreatedDate",
+            "label": "Created Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-04-26T23:16:55.000+0000"
+        },
+        "CreatedById": {
+            "name": "CreatedById",
+            "label": "Created By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "LastModifiedDate": {
+            "name": "LastModifiedDate",
+            "label": "Last Modified Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-04-26T23:16:55.000+0000"
+        },
+        "LastModifiedById": {
+            "name": "LastModifiedById",
+            "label": "Last Modified By ID",
+            "type": "reference",
+            "custom": false,
+            "value": "https://na30.salesforce.com/00536000001PnGDAA0"
+        },
+        "SystemModstamp": {
+            "name": "SystemModstamp",
+            "label": "System Modstamp",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-06-29T22:07:08.000+0000"
+        },
+        "LastViewedDate": {
+            "name": "LastViewedDate",
+            "label": "Last Viewed Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-06-29T22:06:42.000+0000"
+        },
+        "LastReferencedDate": {
+            "name": "LastReferencedDate",
+            "label": "Last Referenced Date",
+            "type": "datetime",
+            "custom": false,
+            "value": "2016-06-29T22:06:42.000+0000"
+        },
+        "CleanStatus": {
+            "name": "CleanStatus",
+            "label": "Clean Status",
+            "type": "picklist",
+            "custom": false,
+            "value": "Pending"
+        },
+        "SICCode__c": {
+            "name": "SICCode__c",
+            "label": "SIC Code",
+            "type": "string",
+            "custom": true,
+            "value": "2768"
+        },
+        "ProductInterest__c": {
+            "name": "ProductInterest__c",
+            "label": "Product Interest",
+            "type": "picklist",
+            "custom": true,
+            "value": "GC5000 series"
+        },
+        "Primary__c": {
+            "name": "Primary__c",
+            "label": "Primary",
+            "type": "picklist",
+            "custom": true,
+            "value": "Yes"
+        },
+        "CurrentGenerators__c": {
+            "name": "CurrentGenerators__c",
+            "label": "Current Generator(s)",
+            "type": "string",
+            "custom": true,
+            "value": "All"
+        },
+        "NumberofLocations__c": {
+            "name": "NumberofLocations__c",
+            "label": "Number of Locations",
+            "type": "double",
+            "custom": true,
+            "value": 130
+        },
+        "LAD__c": {
+            "name": "LAD__c",
+            "label": "LAD",
+            "type": "date",
+            "custom": true,
+            "value": "2016-06-29"
+        }
+    },
+    "isHot": false,
+    "module": "Lead",
+    "lastActivity": "2016-06-29T12:00:00.000Z",
+    "firstActivity": "2016-06-29T22:06:42.473Z",
+    "status": "Working - Contacted",
+    "source": "Web",
+    "email": "bertha@fcof.net",
+    "phoneNumber": "(850) 644-4200",
+    "name": "Bertha Boxer",
+    "updatedAt": "2017-03-31T02:23:50.825Z",
+    "__v": 0,
+    "createdAt": "2016-11-10T20:17:35.343Z",
+    "rating": 0,
+    "_segments": [
+        {
+            "segment": {
+                "_id": "5824d5da1ff0d5fc66c7997d",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "5828f1cab53a65a025a50a15",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582a16d9cfbe4205313a7a8f",
+                "name": "Leads #1"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582fd594f04ee7352b4bb4b6",
+                "name": "Leads #2"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "582fd9e8f04ee7352b4bb4b8",
+                "name": "Leads #3"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58339f369eeee95d28d4867c",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "5835d3cf6f64627e4629bcb1",
+                "name": "Prospects #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58684040a48c900a4dae107e",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "586c171e3189d78ca9d2e9ca",
+                "name": "Leads #2"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "586c743fd3fb64d1c2232e79",
+                "name": "Leads #3"
+            },
+            "deleted": true,
+            "contacted": false,
+            "done": false
+        },
+        {
+            "segment": {
+                "_id": "58ddbdb57448120700e5abff",
+                "name": "Leads"
+            },
+            "deleted": false,
+            "contacted": false,
+            "done": false
+        }
+    ]
+}
